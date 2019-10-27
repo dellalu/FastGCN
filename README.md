@@ -2,6 +2,7 @@ FastGCN
 =======
 
 Features of the Software
+
 First genetic entropy was exploited to filter out some genes with no mutation or small mutation in the raw data preprocessing step. Then Pearson Correlation Coefficients were calculated. At last we normalized these coefficients and used False Discovery Rate to control the multiple tests. All these calculating procedures were implemented on GPU. We also compressed the coefficient matrix to save the space. 
 The R code was developed by Meimei Liang.The GPU code, OpenMP code for Multi-core computing and Single Thread C/C++ code were developed by Futao Zhang.
 
